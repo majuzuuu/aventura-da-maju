@@ -1,0 +1,41 @@
+body {
+    background-color: #4a8b51;
+    background-image:url(https://png.pngtree.com/background/20230610/original/pngtree-path-leads-to-a-cottage-in-a-rose-garden-picture-image_3023480.jpg);
+    background-size:cover;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #d2a679;
+    color: #64492d;
+    font-family:Arial, Helvetica, sans-serif;
+    border:#5c3b1a;
+    border-radius: 30px;
+    border-style:double;
+    border-width: 10px;
+    margin: 20px;
+   
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
